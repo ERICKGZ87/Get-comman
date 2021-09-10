@@ -1,0 +1,70 @@
+.principal{
+
+    height: 600px;
+border-radius: 10px;
+border: solid 2px;
+background-color: cyan;
+
+}
+
+.principal > *{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: solid 3px;
+    background-color: rgb(233, 176, 34);
+
+}
+
+.cabecera{
+
+    width: 99%;
+    height: 90px;
+  
+
+}
+
+.centro{
+   
+    height: 600px;
+
+}
+.centro >* {
+  
+    border-radius: 5px;
+    border: solid 3px;
+    padding: 10px;
+    margin: 10px;
+ background-color: darkred;
+
+ 
+ }
+.izquierda{
+
+    width: 200px;
+    height: 600px;
+  background-color: darkgreen;
+}
+.medio{
+    width: 1200px;
+    height: 600px;
+
+    background-color: deeppink;
+}
+
+.derecha{
+    background-color: dimgrey;
+    width: 200px;
+    height: 300px;
+    
+
+}
+
+.footer{
+    width: 99%;
+    background-color: gold;
+    height: 100px;
+}
+
